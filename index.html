@@ -4,13 +4,36 @@
     <meta charset="utf-8">
     <title>Practica 1 : Curriculum</title>
   </head>
+  <link rel="stylesheet" href="./styles.css" type="text/css">
   <body>
-     <h1 style="text-align:center;" >CURRICULUM</h1>
-     <img src="images.png" alt="images.com" width="150" height="130">
-     <p><i>Nombre y Apellidos: <br> Edad: </i></p>
-     <p><i>Correo: <br>Telf: </i></p>
+    <div class="ex1">
+      <div class="ex4">
+        <h1>CURRICULUM</h1>
+      </div>
+      <img src="images.png" alt="images.com" width="150" height="130">
+    </div>
+    <p></p>
+    <div class="ex5">
+
+    </div>
+    <div class = "ex2">
+      <form action="/action_page.php">
+        <label for="fname">Nombre y apellidos: </label>
+        <input type="text" id="fname" name="firstname" placeholder="Nombre y apellidos...">
+        <label for="fname">Fecha de naciomiento: </label>
+        <input type="text" id="fname" name="firstname" placeholder="aa/bb/cc">
+      </form>
+    </div>
+    <div class="ex2">
+      <form action="/action_page.php">
+        <label for="fname">Telefono: </label>
+        <input type="text" id="fname" name="firstname" placeholder="600 000 000">
+        <label for="fname">Correo: </label>
+        <input type="text" id="fname" name="firstname" placeholder="ejemplo@correo.com">
+      </form>
+    </div>
      <p><i><a href="https://github.com/nievescanas">Github</a></i></p>
-     <hr style="color: #0056b2;" align="left" width="600" />
+     <hr align="left" width="600" />
      <h3>Referencias laborales</h3>
      <ul>
        <li><b>"Nombre de la empresa"</b></li>
@@ -18,9 +41,9 @@
        <li><b>"Nombre de la empresa"</b></li>
        <p>Cargo: <br>Año:</p>
      </ul>
-     <hr style="color: #0056b2;" align="left" width="600" />
+     <hr id="h03"; align="left" width="600" />
      <h3>Formación</h3>
-     <table style="width:80%">
+     <table id = "ta1">
        <tr>
          <td><b>"Años"</b></td>
          <td><b>"Título"</b></td>
@@ -30,7 +53,7 @@
          <td>Universidad o institución</td>
        </tr>
      </table>
-     <table style="width:80%">
+     <table id = "ta1">
        <tr>
          <td><b>"Años"</b></td>
          <td><b>"Título"</b></td>
@@ -40,7 +63,7 @@
          <td>Universidad o institución</td>
        </tr>
      </table>
-     <hr style="color: #0056b2;" align="left" width="600"/>
+     <hr id="h03"; align="left" width="600" />
      <h3>Software</h3>
      <ul>
        <li><b>"Nombre lenguaje"</b></li>
@@ -48,15 +71,15 @@
        <li><b>"Nombre lenguaje"</b></li>
        <p>"Título - Certificado"</p>
      </ul>
-     <hr style="color: #0056b2;" align="left" width="600"/>
+     <hr id="h03"; align="left" width="600" />
      <h3>Idiomas:</h3>
-     <table style="width:60%">
+     <table id = "ta2">
        <tr>
          <th>Idioma</th>
          <th>Nivel (1-100)</th>
        </tr>
        <tr>
-         <td style="text-align:center;">Ingles</td>
+         <td id = "h01">Ingles</td>
          <td style="text-align:center;">50</td>
        </tr>
        <tr>
