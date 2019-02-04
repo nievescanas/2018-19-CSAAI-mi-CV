@@ -17,7 +17,16 @@ div.ex2{
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-
+div.ex6{
+  border-radius: 20px;
+  padding: 20px;
+  height:160px;
+  margin-left: 20px;
+  margin-right: auto;
+  background-image: url("fondo1.jpg");
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
 div.ex3{
   border-radius: 20px;
   padding: 30px;
@@ -69,7 +78,18 @@ h1 {
 hr {
     color: #A52A2A ;
 }
-
+.button {
+  background-color: #9DC7C4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 
 # t1 {
